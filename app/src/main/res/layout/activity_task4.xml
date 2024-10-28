@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <com.example.lab7.ButtonComponent
+        android:id="@+id/defaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonText="Default Button"
+        app:buttonColor="#FF6200EE"/>
+
+    <com.example.lab7.ButtonComponent
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonText="Red Button"
+        app:buttonColor="#FF0000"/>
+
+    <com.example.lab7.ButtonComponent
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonText="Green Button"
+        app:buttonColor="#00FF00"/>
+
+    <com.example.lab7.ButtonComponent
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonText="Blue Button"
+        app:buttonColor="#0000FF"/>
+
+    <com.example.lab7.ButtonComponent
+        android:id="@+id/yellowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonText="Yellow Button"
+        app:buttonColor="#FFFF00"/>
+
+</LinearLayout>

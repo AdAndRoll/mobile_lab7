@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="ButtonComponent">
+        <attr name="buttonText" format="string" />
+        <attr name="buttonColor" format="color" />
+    </declare-styleable>
+</resources>
